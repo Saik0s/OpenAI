@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  
+//
 //
 //  Created by Sergii Kryvoblotskyi on 12/19/22.
 //
@@ -8,6 +8,7 @@
 import Foundation
 
 public enum Model: String, Codable {
+    case textChatDavinci = "text-chat-davinci-002-20221122"
     case textDavinci_003 = "text-davinci-003"
     case textDavinci_002 = "text-davinci-002"
     case textDavinci_001 = "text-davinci-001"
